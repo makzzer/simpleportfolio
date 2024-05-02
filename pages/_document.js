@@ -10,7 +10,11 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <title>My portfolio</title>
-          <meta name="description" content="Maximiliano Sanchez Porfolio"/>
+          <meta name="description" content="Maximiliano Sanchez Porfolio" />
+          <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.css"
+          />
         </Head>
         <body>
           <Main />

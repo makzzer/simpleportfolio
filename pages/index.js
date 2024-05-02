@@ -95,7 +95,7 @@ const Index = () => (
                     <img src={image} alt="" className="card-img-top"></img>
                   </div>
                   <div className="card-body bg-dark text-light x">
-                    <h3 className="text-center">{name}</h3>
+                    <h3 className="text-center text-uppercase">{name}</h3>
                     <p>{description}</p>
                     <Link href="#">Visit site</Link>
                   </div>
@@ -108,7 +108,7 @@ const Index = () => (
       
       
       {/**aca es el boton para ver mas projectos */}
-        <div className="text-center pt-2">
+        <div className="text-center mt-4">
           <Link href="/portfolio" className="btn btn-outline-light text-dark">More projects
           </Link>
         </div>
